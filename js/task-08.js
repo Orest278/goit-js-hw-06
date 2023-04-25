@@ -19,7 +19,8 @@ loginForm.addEventListener(`submit`, (event) => {
             }
 
             formData[name] = value;
-            element.value = ``;
+            loginForm.reset();
+            // element.value = ``;
         }
     }
 
